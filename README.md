@@ -18,6 +18,7 @@ Visualization: Python, Google Colab
 
 # Clean Up Data
 Query: [0_View_intro.sql](0_View_Intro.sql)
+
 Content of that query:
 - Aggregated sales and customer data to derive key revenue metrics
 - Identified customers’ first purchase dates to support cohort analysis
@@ -26,12 +27,14 @@ Content of that query:
 # Analysis
 ## 1. Customer Segmentation
 Query: [1_customer_segmentation.sql](1_customer_segmentation.sql)
+
 Content of the query:
 - Categorized customers based on total lifetime value (LTV)
 - Assigned customers to High, Mid, and Low-value segments
 - Calculated key metrics like total revenue
 
 Visualization:
+
 ![customer_segmentation.png](Images/customer_segmentation.png)
 
 Key Findings:
@@ -46,12 +49,14 @@ Insight:
 
 ## 2. Cohort Analysis
 Query: [2_cohort_analysis.sql](2_cohort_analysis.sql)
+
 Content of the query:
 - Tracked revenue and customer count per cohorts
 - Cohorts were grouped by year of first purchase
 - Analyzed customer revenue at a cohort level
 
 Visualization:
+
 ![cohort_analysis.png](Images/cohort_analysis.png)
 
 Key Findings:
@@ -66,12 +71,14 @@ Insights:
 
 ## 3. Retention Analysis
 Query: [3_retention_analysis.sql](3_retention_analysis.sql)
+
 Content of the query:
 - Identified customers at risk of churning
 - Analyzed last purchase patterns
 - Calculated customer-specific metrics
 
 Visualization:
+
 ![retention_analysis.png](Images/retention_analysis.png)
 
 Key Findings:
